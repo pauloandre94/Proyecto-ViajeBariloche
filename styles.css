@@ -1,0 +1,145 @@
+body{
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 50px 0;
+    border: 1px solid black;
+}
+/* Header */
+header{
+    color:black ;
+    min-height: 30%;
+    padding: 3%;
+    margin: 0px;
+    /* text-align: center; */
+    background-image: url(bg/bluemountainbr.jpg);
+    background-size: cover;
+    text-decoration: none;    
+}
+.encabezado{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+h1{
+    text-shadow: 2px 2px 4px #eee;
+}
+header p{
+    text-shadow:2px 2px 6px white ;
+}
+header .h1_p{
+    padding: 0px;
+    text-shadow:2px 2px 6px white ;
+}
+.menu{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+} 
+.menu a{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 35px;
+    margin: 0px 3px 3px;
+    flex-wrap: wrap;
+    /* border: 2px solid rgb(75, 73, 73); */
+    border-radius: 4px;
+    background-color: rgba(170, 170, 170, 0.3);
+    color: black;
+    text-decoration: none;
+
+}
+.menu a:hover{
+    width: 85px;
+    height: 45px;
+    box-shadow: 3px 2px 8px rgb(255, 255, 255);
+    text-shadow: 3px 3px 10px rgb(255, 255, 255);
+
+    
+}
+.menu .current{
+    color: black;
+    text-decoration: 4px underline;
+    
+}
+.divisor{
+    margin: 0px ;
+    border: 2px solid rgba(82, 81, 81, 0.75) ;
+    background-color: rgba(82, 81, 81, 0.75);
+}
+
+/* Main */
+
+main{
+    margin: 0px;
+}
+.sumario{
+    margin-left: 15px;
+}
+.sumario h2{
+    margin-top: 0;
+    padding-top: 10px;
+
+}
+.experiencia_lista li{
+    margin-top: 10px ;
+    margin-left: 20px;
+    font-size: medium;
+}
+
+/* resumen 1 */
+.titulo_resumen1{
+    margin-top: 30px;
+    text-align: center;
+}
+.texto_left{
+    border-bottom: 1px solid #333; ;
+    padding-bottom: 13px;
+}
+.texto_left,
+.texto_left p{
+    height: 480px;
+    overflow:inherit;
+    font-size: small;
+    background-color: rgb(255, 255, 255);
+    
+}
+.texto_left p{
+    padding-left: 10px;
+    text-align:left;
+    display: flex;
+    align-items: center;
+}
+.texto_left img{
+    margin: 150px 10px 10px 10px;
+    border: 1px solid #333;
+    width: 150px;
+    height: 170px;
+    float: left;
+}
+
+/* resumen 2 */
+.titulo_resumen2{
+    margin-top: 30px;
+    text-align: center;
+}
+.texto_right{
+    font-size: small;
+    background-color: rgb(214, 137, 137);
+}
+
+/* resumen 3 */
+.titulo_resumen3{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+/* Footer */
